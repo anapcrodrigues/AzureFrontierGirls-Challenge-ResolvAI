@@ -40,7 +40,7 @@ O **ResolvAI** foi desenvolvido no Azure AI Foundry seguindo as etapas de infrae
 ![Criar agente](01_criar-recurso-foundry/01_criar-agente.png)
 3. Dê um nome para o agente, **ResolvAI**.
 4. Selecione qual modelo de IA deseja implantar, `gpt-4o-mini`.
-![Selecione modelo de IA](03_criar-agente\02_modelo-ia.png)
+![Selecione modelo de IA](03_criar-agente/02_modelo-ia.png)
 5. Defina os parâmetros Temperatura e Top P do modelo para 0,3 e 0,3, respectivamente.
 > Temperatura: Controla a aleatoriedade. Abaixar a temperatura significa que o modelo produzirá respostas mais repetitivas e determinísticas. Aumentar a temperatura resultará em respostas mais inesperadas ou criativas.
 > Top P: Semelhante à temperatura, isso controla a aleatoriedade, mas usa um método diferente. Abaixar o Top P restringirá a seleção de tokens do modelo para tokens mais prováveis. Aumentar o Top P permitirá que o modelo escolha tokens com alta e baixa probabilidade.
@@ -86,16 +86,16 @@ Regras:
 
 # Execução do ResolvAI
 
-![alt text](01_ResolvAI.png)
-![alt text](02_interacao-ResolvAI.png)
-![alt text](03_interacaoResolvAI.png)
+![ResolvAI](01_ResolvAI.png)
+![Interação ResolvAI](02_interacao-ResolvAI.png)
+![Interação 2 ResolvAI](03_interacaoResolvAI.png)
 
 ## Thread Logs
 
-![alt text](04_log\01_log.png)
-![alt text](04_log\02_log.png)
-![alt text](04_log\03_log.png)
+![Log 1](04_log/01_log.png)
+![Log 2](04_log/02_log.png)
+![Log 3](04_log/03_log.png)
 
 # Referências
-[Azure AI Foundry](https://ai.azure.com/)
-[Documentação de Agentes no Foundry](https://learn.microsoft.com/pt-br/azure/ai-foundry/?view=foundry-classic)
+- [Azure AI Foundry](https://ai.azure.com/)
+- [Documentação de Agentes no Foundry](https://learn.microsoft.com/pt-br/azure/ai-foundry/?view=foundry-classic)
