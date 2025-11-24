@@ -37,7 +37,7 @@ O **ResolvAI** foi desenvolvido no Azure AI Foundry seguindo as etapas de infrae
 
 1. Acesse o [Portal do Azure AI Foundry](https://ai.azure.com).
 2. Clique em "Comece a criar" e em seguida, "Criar agente"
-![Criar agente](01_criar-recurso-foundry\01_criar-agente.png)
+![Criar agente](01_criar-recurso-foundry/01_criar-agente.png)
 3. Dê um nome para o agente, **ResolvAI**.
 4. Selecione qual modelo de IA deseja implantar, `gpt-4o-mini`.
 ![Selecione modelo de IA](03_criar-agente\02_modelo-ia.png)
